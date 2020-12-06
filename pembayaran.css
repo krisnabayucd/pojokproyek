@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    margin:0 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+header {
+    background: linear-gradient( #FFA8CC, #FF388B );
+    height: 140px;
+
+}
+
+header .container {
+    /* background-color: skyblue; */
+    height: 140px;
+    width: 14%;
+    margin: -30px auto 0 auto;
+}
+
+
+/* main */
+main {
+    /* background-color: salmon; */
+
+}
+
+.pilih {
+    text-align: center;
+    color: #262362;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 70px;
+}
+
+.kotak {
+    /* background-color: tomato; */
+    width: 60%;
+    height: 120px;
+    margin: 0 auto;
+    border: 2px solid #c4c4c4;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.kotak img {
+    width: 90px;
+    /* background-color: goldenrod; */
+    margin: 45px;
+}
+
+.atau {
+    text-align: center;
+
+}
+
+
+.pembayaranlain {
+    text-align: center;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+.kotakwa {
+    background-color:#54CF60;
+    width: 10%;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    /* border: 5px solid #262326; */
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.kotakwa img {
+    width: 40px;
+    /* background-color: goldenrod; */
+    margin: 5px;
+    
+}
