@@ -1,0 +1,79 @@
+body {
+	background-image: linear-gradient(#5C5A8D, #26236A);
+	font-family: 'Montserrat';
+	height: 1300px;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 800px;
+	padding: 0 15px;
+	margin: 0 auto;
+	  
+}
+
+.logo {
+	width: 124px;
+	margin-top:20px;
+	margin-left:20px;
+
+}
+
+.top-wrapper {
+	height: 500px;
+}
+
+.top h1 {
+	text-align: center;
+	color: #ffffff;
+}
+
+.top p {
+	text-align: left;
+	color: hsl(0, 0%, 100%);
+	font-weight: 100;
+}
+
+.lower-wrapper {
+	text-align: center;
+	margin: 0 auto;
+	color: #ffffff;
+	width: 1000px;
+	height: 600px;
+	/* background-color: hotpink; */
+}
+
+.tim {
+	float: left;
+	width: 25%;
+	/* background-color: green; */ */
+}
+
+.anggota img {
+	position: relative;
+	/* background-color: hotpink;  */
+	width: 150px;
+	
+	
+}
+
+.footer {
+  background-color: #C4C4C4;
+  height: 80px;
+  width: 100%;
+
+}
+
+.logo0 {
+	margin: 15px 20px;
+	width: 120px;
+	/* ackground-color: indianred;  */
+	float: left ;
+}
+
+.iconfot img {
+	/* background-color: khaki; */
+	margin: 15px 20px;
+	width: 40px;
+}
