@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.badan {
+    height: 587px;
+    background: linear-gradient( #FFA8CC, #FF388B );
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.logo {
+    width: 200px;
+    margin: 100px 0 26px 0;
+    transition: 0.9s ease all;
+
+}
+.logo:hover {
+    transform:scale(1.06);
+}
+
+.form {
+    background-color: white;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.form .judul {
+    margin: 5px 0 15px 0 ;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #262362;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+    /* background-color: greenyellow; */
+}
+
+.form .label {
+    font-size: 14px;
+    margin: 0 0 3px 6px;
+    color: #262362;
+}
+
+.form .input {
+    /* background-color: green; */
+    width: 270px;
+    height: 24px;
+    border-radius: 7px;
+    font-size: 14px;
+    color: #262362;
+    border: 1px solid #c4c4c;
+    padding: 5px;
+    margin: 0 0 10px 0;
+    outline: none;
+    z-index: 1;
+    border: 2px solid #c4c4c4;
+}
+
+.form .tombol {
+    background-color: #262362;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    padding: 10px 46px;
+    border-radius: 20px;
+    margin: 5px 0 0 0;
+    border: 0px solid ;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #00000069;
+    transition: 0.9s ease all;
+    
+}
+.form .tombol:hover {
+    background-color: #431661;
+    transform:scale(1.08);
+}
+
+.form .daftar {
+    font-size: 14px;
+    text-decoration: none;
+    margin: 10px 0 16px 0;
+    color: #262362;
+    font-weight: 500;
+
+}
+
+.lupa {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    cursor: pointer;
+}
